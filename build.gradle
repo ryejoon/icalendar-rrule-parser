@@ -10,5 +10,7 @@ repositories {
 }
 
 dependencies {
+    compile 'net.sf.biweekly:biweekly:0.6.1'
+    compile files('libs/rfc2445-4Mar2011.jar')
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
